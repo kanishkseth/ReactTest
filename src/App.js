@@ -27,7 +27,7 @@ function App() {
       setLoading(false); // Set loading state to false after back action
     }, 1000); // Simulating 1 second delay
   };
-
+  //App changes in commit 1
   return (
     <div className={`App ${darkMode ? 'dark-mode' : ''}`}> {/* Conditionally apply dark mode class */}
       <header className="App-header">
